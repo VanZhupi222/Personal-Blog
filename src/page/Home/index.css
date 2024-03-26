@@ -1,0 +1,30 @@
+.home-page {
+    --home-page-height: 100vh;
+    background-image: url(./source/home_background.jpg);
+    background-size: 100% 100%;
+    height: var(--home-page-height);
+    display: flex;
+}
+
+.card-background {
+    background-image: url(./source/card-background.png);
+    flex: 1;
+    justify-content: space-between;
+}
+
+.something {
+    flex: 2;
+}
+
+.card-wrapper {
+    display: flex;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 18rem;
+}
+
+.card {
+    flex: 1;
+    position: absolute;
+}

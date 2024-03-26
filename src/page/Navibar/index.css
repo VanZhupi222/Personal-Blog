@@ -1,0 +1,19 @@
+/* NavDropdown 动画效果 */
+:root {
+    --animation-name: fadeIn; /* 定义动画名称的变量 */
+}
+
+.dropdown-menu {
+    animation: var(--animation-name) .5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
