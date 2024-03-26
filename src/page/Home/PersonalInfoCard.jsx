@@ -1,5 +1,6 @@
 import { Card } from 'react-bootstrap';
 import TypeIt from 'typeit-react';
+import "./PersonalInfoCard.css"
 
 const PersonalInfoCard = (props) => {
     return (
@@ -11,7 +12,7 @@ const PersonalInfoCard = (props) => {
                 </Card.Title>
                 <Card.Text>
                     <TypeIt>
-                        This is <span style={{color: "goldenrod", fontFamily: "Lucida Handwriting, cursive"}}>Zhupi222</span>
+                        This is <span className="signature">Zhupi222</span>
                     </TypeIt>
                 </Card.Text>
                 <Card.Text>{props.text}</Card.Text>

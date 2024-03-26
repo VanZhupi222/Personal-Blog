@@ -1,0 +1,9 @@
+.signature {
+    color: goldenrod;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+@font-face {
+    font-family: "Lucida Handwriting";
+    src: url("./source/Lucida Handwriting Italic.ttf");
+}
