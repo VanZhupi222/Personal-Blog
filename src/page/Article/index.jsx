@@ -1,6 +1,6 @@
 const Article = () => {
     return (
-        <div>
+        <div className="">
             ARTICLE
         </div>
     )

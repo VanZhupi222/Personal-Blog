@@ -1,9 +1,37 @@
 .signature {
     color: goldenrod;
-    font-family: "Lucida Handwriting", cursive;
+    font-family: 'Lucida Handwriting', cursive;
 }
 
 @font-face {
-    font-family: "Lucida Handwriting";
-    src: url("./source/Lucida Handwriting Italic.ttf");
+    font-family: 'Lucida Handwriting';
+    src: url('./source/Lucida Handwriting Italic.ttf');
+}
+
+.card-buttons {
+    border: none;
+    outline: none;
+    background: none;
+    position: relative;
+    flex: 1;
+    height: 10vh
+}
+
+.img-wrapper {
+    display: flex;
+    width: inherit;
+}
+
+.image {
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.image-clicked {
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
 }
