@@ -14,6 +14,9 @@
 
 .something {
     flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .card-wrapper {

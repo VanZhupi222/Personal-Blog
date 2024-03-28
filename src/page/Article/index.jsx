@@ -1,9 +1,8 @@
 const Article = () => {
     return (
-        <div className="">
-            ARTICLE
+        <div>
+            Article
         </div>
-    )
-}
-
-export default Article
+    );
+};
+export default Article;
